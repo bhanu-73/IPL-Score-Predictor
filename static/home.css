@@ -1,0 +1,66 @@
+body{
+    background-image : url('/static/blues.jpg');
+    background-repeat: no-repeat;
+    background-size : cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.out{
+    display : "flex";
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1em 1.5em 1em 1.5em;
+    border-radius: 0.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+label{
+    font-size: 16px;
+}
+select{
+    font-size: 16px;
+    border-radius: 0.3em;
+    padding: 0.4em;
+    margin-top: 0.25em;
+    margin-bottom: 0.8em;
+    border-style: hidden;
+    background-color: white;
+}
+div.r1,div.r2,div.r3{
+    display: flex;
+}
+
+div.r1e2,div.r2e2,div.r3e2{
+    margin-left: 2em;
+}
+input{
+    display: block;
+    font-size: 16px;
+    border-radius: 0.3em;
+    border-width: 0.08em;
+    border-color: skyblue;
+    padding: 0.4em;
+    margin-top: 0.25em;
+    margin-bottom: 0.8em;
+    border-style: solid;
+    background-color: white;
+}
+input.t1{
+    width: 26em;
+}
+input.t2{
+    width: 2em;
+}
+input.t3{
+    width: 32em;
+}
+
+input.b{
+    background-color: turquoise;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 3em;
+    border-style: hidden;
+}

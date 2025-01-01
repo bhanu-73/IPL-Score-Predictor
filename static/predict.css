@@ -1,0 +1,24 @@
+body{
+    background-image : url('/static/blues.jpg');
+    background-repeat: no-repeat;
+    background-size : cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.out{
+    display : "flex";
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1em 1.5em 1em 1.5em;
+    border-radius: 0.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+b{
+    font-size : 20px;
+}
